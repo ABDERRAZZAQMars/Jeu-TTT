@@ -51,7 +51,7 @@ span {
     align-items: center;
 }
 
-#reset {
+#btnreset {
     margin-top: 1rem;
     background-color: rgb(64, 64, 244);
     color: white;
