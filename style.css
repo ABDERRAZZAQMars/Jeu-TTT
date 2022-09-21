@@ -34,17 +34,24 @@ span {
     margin: 1rem;
 }
 
-table td {
+#cadr {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.case {
     width: 100px;
     height: 100px;
     border: 1px solid gray;
     border-radius: 2px;
     background-color: rgb(209, 209, 209);
     font-size: 50px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.btnreset {
+#reset {
     margin-top: 1rem;
     background-color: rgb(64, 64, 244);
     color: white;
