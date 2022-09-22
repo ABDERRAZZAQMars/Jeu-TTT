@@ -42,6 +42,10 @@ function win() {
         document.getElementById('c1').style.background = 'red'
         document.getElementById('c5').style.background = 'red';
         document.getElementById('c9').style.background = 'red';
+    } else if (cadr[3] == cadr[5] && cadr[5] == cadr[7] && cadr[3] != '') {
+        document.getElementById('c3').style.background = 'red'
+        document.getElementById('c5').style.background = 'red';
+        document.getElementById('c7').style.background = 'red';
     }
 }
 
