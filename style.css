@@ -21,9 +21,10 @@ p {
     margin-top: 1rem;
 }
 
-span {
+
+/* span {
     font-weight: bold;
-}
+} */
 
 #players {
     display: flex;
