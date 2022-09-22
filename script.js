@@ -38,6 +38,10 @@ function win() {
         document.getElementById('c3').style.background = 'red'
         document.getElementById('c6').style.background = 'red';
         document.getElementById('c9').style.background = 'red';
+    } else if (cadr[1] == cadr[5] && cadr[5] == cadr[9] && cadr[1] != '') {
+        document.getElementById('c1').style.background = 'red'
+        document.getElementById('c5').style.background = 'red';
+        document.getElementById('c9').style.background = 'red';
     }
 }
 
