@@ -20,21 +20,21 @@
     </div>
 
     <div id="cadr">
-        <div id="c1" class="case">O</div>
-        <div id="c2" class="case">X</div>
-        <div id="c3" class="case">X</div>
-        <div id="c4" class="case">X</div>
-        <div id="c5" class="case">O</div>
-        <div id="c6" class="case"></div>
-        <div id="c7" class="case"></div>
-        <div id="c8" class="case"></div>
-        <div id="c9" class="case">O</div>
+        <div id="c1" class="case" onclick="game(this.id)"></div>
+        <div id="c2" class="case" onclick="game(this.id)"></div>
+        <div id="c3" class="case" onclick="game(this.id)"></div>
+        <div id="c4" class="case" onclick="game(this.id)"></div>
+        <div id="c5" class="case" onclick="game(this.id)"></div>
+        <div id="c6" class="case" onclick="game(this.id)"></div>
+        <div id="c7" class="case" onclick="game(this.id)"></div>
+        <div id="c8" class="case" onclick="game(this.id)"></div>
+        <div id="c9" class="case" onclick="game(this.id)"></div>
     </div>
 
     <button id="btnreset">RESET</button>
 
     <div id="resultat">
-        <p>Player <span id="playerwon"></span> won</p>
+        <p>Player <span id="playerwon">X</span> won</p>
     </div>
 
     <script src="./script.js"></script>

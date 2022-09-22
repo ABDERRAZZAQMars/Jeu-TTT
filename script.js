@@ -1,4 +1,8 @@
-// Button Reset
+// Déclaration
+
+let turn = 'x';
+
+// Function Reset
 
 const button = document.querySelector('button')
 
@@ -10,15 +14,19 @@ function Reset() {
     let cases = document.querySelectorAll(".case")
     cases.forEach(element => {
         element.innerHTML = ""
-
+        turn = 'x';
     });
-    // document.getElementById("c1").innerHTML = "";
-    // document.getElementById("c2").innerHTML = "";
-    // document.getElementById("c3").innerHTML = "";
-    // document.getElementById("c4").innerHTML = "";
-    // document.getElementById("c5").innerHTML = "";
-    // document.getElementById("c6").innerHTML = "";
-    // document.getElementById("c7").innerHTML = "";
-    // document.getElementById("c8").innerHTML = "";
-    // document.getElementById("c9").innerHTML = "";
+}
+
+// Function Game
+
+function game(id) {
+    let element = document.getElementById(id);
+    if (turn === 'x' && element.innerHTML == '') {
+        element.innerHTML = 'x';
+        turn = 'o';
+    } else if (turn === 'o' && element.innerHTML == '') {
+        element.innerHTML = 'o';
+        turn = 'x';
+    }
 }
