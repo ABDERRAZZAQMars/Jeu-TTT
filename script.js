@@ -18,6 +18,10 @@ function win() {
         document.getElementById('c1').style.background = 'red'
         document.getElementById('c2').style.background = 'red';
         document.getElementById('c3').style.background = 'red';
+    } else if (cadr[4] == cadr[5] && cadr[5] == cadr[6] && cadr[4] != '') {
+        document.getElementById('c4').style.background = 'red'
+        document.getElementById('c5').style.background = 'red';
+        document.getElementById('c6').style.background = 'red';
     }
 }
 
