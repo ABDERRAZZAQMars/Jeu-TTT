@@ -25,6 +25,11 @@ span {
     font-weight: bold;
 }
 
+#playerwon {
+    font-weight: bold;
+    color: rgb(235, 7, 7);
+}
+
 #players {
     display: flex;
     flex-direction: column;
